@@ -27,6 +27,12 @@ a:hover {
   cursor: pointer;
 }
 
-.navbar-brand-full{
+.navbar-brand-full {
   height: 40px;
+}
+
+@media (min-width: 992px) {
+  .header-fixed .app-header {
+    z-index: 999 !important;
+  }
 }
