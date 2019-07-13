@@ -1,5 +1,19 @@
 body {
-  background-color: #ffffff !important;
+  background-color: rgb(228, 229, 230);
+}
+
+.form-container {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #c8ced3;
+  border-radius: .25rem;
 }
 
 .mat-form-field-label {
