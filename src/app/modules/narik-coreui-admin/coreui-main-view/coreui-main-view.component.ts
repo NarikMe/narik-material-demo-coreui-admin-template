@@ -19,6 +19,8 @@ export class CoreUiMainViewComponent extends NarikComponent
   title: string;
   _translateMenu = true;
 
+  @Input()
+  navigationType = "route";
   @Input() headerTitle = "";
   @Input() menuHeader = "";
 

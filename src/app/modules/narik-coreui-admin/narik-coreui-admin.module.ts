@@ -7,6 +7,8 @@ import { RouterModule } from "@angular/router";
 import { PerfectScrollbarModule } from "ngx-perfect-scrollbar";
 import { BsDropdownModule } from "ngx-bootstrap/dropdown";
 
+import { NarikMatTabOutletModule } from "narik-ui-material";
+
 import {
   AppAsideModule,
   AppHeaderModule,
@@ -22,7 +24,8 @@ import { TranslateModule } from "@ngx-translate/core";
     PerfectScrollbarModule,
     AppAsideModule,
     TranslateModule,
-    BsDropdownModule.forRoot()
+    BsDropdownModule.forRoot(),
+    NarikMatTabOutletModule
   ],
   declarations: [COMPONENTS],
   exports: [COMPONENTS],

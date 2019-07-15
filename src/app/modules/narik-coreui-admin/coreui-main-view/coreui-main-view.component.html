@@ -48,7 +48,8 @@
     <!-- Breadcrumb -->
 
     <div class="container-fluid pt-4">
-      <router-outlet></router-outlet>
+      <narik-tab-outlet *ngIf="navigationType==='tab'"></narik-tab-outlet>
+        <router-outlet *ngIf="navigationType==='route'"></router-outlet>
     </div><!-- /.container-fluid -->
   </main>
   <app-aside [fixed]="true" [display]="false">
