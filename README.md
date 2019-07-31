@@ -2,6 +2,8 @@
 
 A demo for [**Narik**](http://narik.me "Narik Angular Framework") with [Angular Material](https://material.angular.io/ "Angular Material") and [CoreUI for Angular](https://coreui.io/)
 
+[Online Demo](http://narik.me/demo/app-material-coreui)
+
 ## Running the demo
 
 First of all copy repo to local machine .
