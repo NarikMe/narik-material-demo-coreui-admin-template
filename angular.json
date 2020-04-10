@@ -25,6 +25,7 @@
                 "plugins": "prepend"
               }
             },
+            "aot": true,
             "outputPath": "dist/narik-material-demo-coreui-admin-template",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -34,10 +35,10 @@
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.css",
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
-              "node_modules/@coreui/icons/css/coreui-icons.css",
+              "node_modules/@coreui/icons/css/free.css",
               "node_modules/ngx-toastr/toastr.css",
               "src/styles/styles.scss",
-              "node_modules/narik-ui-material/styles/narik-ui-material.css"
+              "node_modules/@narik/ui-material/styles/narik-ui-material.css"
             ],
             "stylePreprocessorOptions": {
               "includePaths": ["src/styles/"]

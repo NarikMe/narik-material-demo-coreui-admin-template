@@ -1,12 +1,12 @@
 import { Component, OnDestroy, Inject, Input } from "@angular/core";
 import { DOCUMENT } from "@angular/common";
-import { NarikTranslateService } from "narik-core";
+import { NarikTranslateService } from "@narik/core";
 import { Router, ActivatedRoute, NavigationEnd } from "@angular/router";
 import { Title } from "@angular/platform-browser";
 import { filter } from "rxjs/internal/operators/filter";
 import { map } from "rxjs/internal/operators/map";
 import { takeWhile } from "rxjs/internal/operators/takeWhile";
-import { NarikComponent, AuthenticationService, DialogService } from "narik-infrastructure";
+import { NarikComponent, AuthenticationService, DialogService } from "@narik/infrastructure";
 import { ChangePassComponent } from "../../main/change-password/change-password.component";
 
 @Component({

@@ -7,10 +7,10 @@ import {
   FormViewRoute,
   NarikAppCoreModule,
   ModuleLoadCompletelyGuard
-} from "narik-app-core";
+} from "@narik/app-core";
 import { CommonModule } from "@angular/common";
 import { ShareModule } from "../share/share.module";
-import { NarikUiMaterialModule } from "narik-ui-material";
+import { NarikUiMaterialModule } from "@narik/ui-material";
 import { FormsModule } from "@angular/forms";
 
 import {
@@ -19,12 +19,9 @@ import {
   ModuleInfo,
   AuthenticationService,
   DialogService
-} from "narik-infrastructure";
-import { NarikModule } from "narik-core";
-import { Observable } from "rxjs/internal/Observable";
-import { filter } from "rxjs/internal/operators/filter";
-import { map } from "rxjs/internal/operators/map";
-import { ChangePassComponent } from "../main/change-password/change-password.component";
+} from "@narik/infrastructure";
+import { NarikModule } from "@narik/core";
+import { Observable } from "rxjs";
 import { NarikCoreUiAdmin } from "../narik-coreui-admin/narik-coreui-admin.module";
 
 const moduleKey = "admin";
