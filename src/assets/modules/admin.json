@@ -99,7 +99,7 @@
           },
           {
             "name": "customerTitle",
-            "showInDetail": false,
+            "showInEdit": false,
             "title": "customer",
             "fieldType": "text"
           },
@@ -116,7 +116,7 @@
           },
           {
             "name": "branchTitle",
-            "showInDetail": false,
+            "showInEdit": false,
             "title": "branch",
             "fieldType": "text"
           },
@@ -134,7 +134,7 @@
           },
           {
             "name": "employeeTitle",
-            "showInDetail": false,
+            "showInEdit": false,
             "title": "employee",
             "fieldType": "text"
           },
@@ -151,7 +151,7 @@
           },
           {
             "name": "productTitle",
-            "showInDetail": false,
+            "showInEdit": false,
             "title": "product",
             "fieldType": "text"
           },
@@ -198,7 +198,7 @@
           {
             "name": "accountTitle",
             "title": "account",
-            "showInDetail": false
+            "showInEdit": false
           },
           {
             "name": "accountId",
@@ -215,7 +215,7 @@
           {
             "name": "executionBranchtitle",
             "title": "executionBranch",
-            "showInDetail": false
+            "showInEdit": false
           },
           {
             "name": "executionBranchId",
@@ -332,7 +332,7 @@
             "name": "customerTitle",
             "title": "customer",
             "fieldType": "text",
-            "showInDetail": false
+            "showInEdit": false
           }
         ],
         "defaultEntity": {}
@@ -445,12 +445,12 @@
           {
             "name": "branchTitle",
             "title": "assignBranch",
-            "showInDetail": false
+            "showInEdit": false
           },
           {
             "name": "departmentTitle",
             "title": "department",
-            "showInDetail": false
+            "showInEdit": false
           },
           {
             "name": "deptId",
@@ -467,7 +467,7 @@
           {
             "name": "superiorEmployeeTitle",
             "title": "superiorEmp",
-            "showInDetail": false
+            "showInEdit": false
           },
           {
             "name": "superiorEmpId",
@@ -589,7 +589,7 @@
           {
             "name": "productTypeTitle",
             "title": "productType",
-            "showInDetail": false
+            "showInEdit": false
           },
           {
             "name": "productTypeCd",
@@ -621,9 +621,9 @@
     "views": [
       {
         "key": "userAccount",
-        "viewType": "Detail",
+        "viewType": "Edit",
         "entity": "userAccount",
-        "toolbarKey": "userDetailToolBar"
+        "toolbarKey": "userEditToolBar"
       },
       {
         "key": "userAccount-list",
@@ -633,7 +633,7 @@
 
       {
         "key": "role",
-        "viewType": "Detail",
+        "viewType": "Edit",
         "entity": "role"
       },
       {
@@ -643,7 +643,7 @@
       },
       {
         "key": "account",
-        "viewType": "Detail",
+        "viewType": "Edit",
         "entity": "account"
       },
       {
@@ -654,7 +654,7 @@
 
       {
         "key": "accTransaction",
-        "viewType": "Detail",
+        "viewType": "Edit",
         "entity": "accTransaction"
       },
       {
@@ -665,7 +665,7 @@
 
       {
         "key": "branch",
-        "viewType": "Detail",
+        "viewType": "Edit",
         "entity": "branch"
       },
       {
@@ -676,7 +676,7 @@
 
       {
         "key": "business",
-        "viewType": "Detail",
+        "viewType": "Edit",
         "entity": "business"
       },
       {
@@ -687,7 +687,7 @@
 
       {
         "key": "customer",
-        "viewType": "Detail",
+        "viewType": "Edit",
         "entity": "customer"
       },
       {
@@ -698,7 +698,7 @@
 
       {
         "key": "department",
-        "viewType": "Detail",
+        "viewType": "Edit",
         "entity": "department"
       },
       {
@@ -709,7 +709,7 @@
 
       {
         "key": "employee",
-        "viewType": "Detail",
+        "viewType": "Edit",
         "entity": "employee"
       },
       {
@@ -720,7 +720,7 @@
 
       {
         "key": "individual",
-        "viewType": "Detail",
+        "viewType": "Edit",
         "entity": "individual"
       },
       {
@@ -731,7 +731,7 @@
 
       {
         "key": "officer",
-        "viewType": "Detail",
+        "viewType": "Edit",
         "entity": "officer"
       },
       {
@@ -741,7 +741,7 @@
       },
       {
         "key": "product",
-        "viewType": "Detail",
+        "viewType": "Edit",
         "entity": "product",
         "options": {
           "columnsCount": 2,
@@ -756,7 +756,7 @@
 
       {
         "key": "productType",
-        "viewType": "Detail",
+        "viewType": "Edit",
         "entity": "productType"
       },
       {
@@ -989,9 +989,9 @@
 
     "toolbars": [
       {
-        "key": "userDetailToolBar",
+        "key": "userEditToolBar",
         "items": [
-          "&&detailToolBar",
+          "&&editToolBar",
           "-",
           {
             "key": "role",
@@ -1000,7 +1000,7 @@
           }
         ]
       },
-      "$$toolbar.detailToolBar",
+      "$$toolbar.editToolBar",
       "$$toolbar.listToolBar"
     ]
   }
