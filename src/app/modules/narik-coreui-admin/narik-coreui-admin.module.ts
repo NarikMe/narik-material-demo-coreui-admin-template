@@ -9,26 +9,20 @@ import { BsDropdownModule } from "ngx-bootstrap/dropdown";
 
 import { NarikMatTabOutletModule } from "@narik/ui-material";
 
-import {
-  AppAsideModule,
-  AppHeaderModule,
-  AppSidebarModule
-} from "@coreui/angular";
+import { SidebarModule } from "@coreui/angular";
 import { TranslateModule } from "@ngx-translate/core";
 
 @NgModule({
   imports: [
     RouterModule,
-    AppHeaderModule,
-    AppSidebarModule,
     PerfectScrollbarModule,
-    AppAsideModule,
+    SidebarModule,
     TranslateModule,
     BsDropdownModule.forRoot(),
-    NarikMatTabOutletModule
+    NarikMatTabOutletModule,
   ],
   declarations: [COMPONENTS],
   exports: [COMPONENTS],
-  providers: []
+  providers: [],
 })
 export class NarikCoreUiAdmin {}

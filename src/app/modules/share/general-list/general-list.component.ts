@@ -1,12 +1,10 @@
+import { Component, Injector } from "@angular/core";
+import { DynamicForm } from "@narik/core";
 import { NarikUiListForm } from "@narik/ui-lib";
 
-import { Component, Injector } from "@angular/core";
 
-import { NarikListUi } from "../../../templates/template.decorator";
-import { DynamicForm } from "@narik/core";
 
 @DynamicForm("GeneralListComponent")
-@NarikListUi()
 @Component({
   templateUrl: "general-list.component.html",
 })
